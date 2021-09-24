@@ -1,4 +1,4 @@
-git commit --amend --reset-author# codeedu-desafio-node-nginx
+# codeedu-desafio-node-nginx
 
 Desafio 2 do curso full cycle 2.0, módulo sobre docker.
 
