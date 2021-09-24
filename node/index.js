@@ -20,7 +20,7 @@ connection.connect((err)=> {
     });
 
 // Atribuindo o nome a ser gravado
-const nome = 'Haroldo'
+const nome = 'Wesley'
 
 // Inserir os dados no BD
 let sql = `INSERT INTO people(name) values(?)`
@@ -37,7 +37,8 @@ app.get('/', (req,res) => {
 
         }else{
             console.log('rows', rows)
-            let html = '<h1>Full Cycle</h1><table><tr><td>Id</td><td>Nome</td></tr>'
+            let html = '<h1>Full Cycle Rocks!</h1><table><tr><td>Id</td><td>Nome</td></tr>'
+            
             // Pode ter gravado mais de uma vez, pois não há restrição no banco
             Object.keys(rows).forEach((key) => {
                 let row = rows[key]                
