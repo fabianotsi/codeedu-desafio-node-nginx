@@ -2,6 +2,9 @@
 
 Desafio 2 do curso full cycle 2.0, módulo sobre docker.
 
+### [Atualização em 24/09/2021] - Corrigido conforme solicitado.
+</br>
+
 Resultado do comando docker-compose ps:
 ```bash
 ➜ docker-compose ps           
