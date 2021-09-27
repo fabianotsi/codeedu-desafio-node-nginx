@@ -1,2 +1,4 @@
+mysql/**
+!mysql/sql.txt
 node/node_modules
 .vscode/*
