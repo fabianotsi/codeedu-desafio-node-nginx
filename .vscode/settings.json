@@ -7,5 +7,8 @@
     "cSpell.words": [
         "nodedb"
     ],
-    "cSpell.language": "en,pt-BR"
+    "cSpell.language": "en,pt-BR",
+    "cSpell.ignoreWords": [
+        "createtable"
+    ]
 }

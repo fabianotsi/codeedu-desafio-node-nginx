@@ -22,6 +22,19 @@ connection.connect((err)=> {
 // Atribuindo o nome a ser gravado
 const nome = 'Wesley'
 
+// Criar a tabela, caso não exista
+let createtable = `create table if not exists people (
+                     id   int not null auto_increment,
+                     name varchar(255),
+                     primary key(id))`
+
+connection.query(createtable, function(err, results, fields) {
+    if (err) {
+        console.log(err.message);
+    }
+});
+
+
 // Inserir os dados no BD
 let sql = `INSERT INTO people(name) values(?)`
 connection.query(sql, nome)
