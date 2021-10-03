@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM docker2021repos/nginx:latest
 
 RUN  apt-get update \
   && apt-get install -y apt-utils wget curl\
